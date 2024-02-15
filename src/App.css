@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #212529;
+  color: white;
+}
+
+
+.app{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5pc;
+}
+
+.card {
+  border: 1px solid white;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  width: 70vw;
+  height: auto;
+
+  margin-bottom: 1pc;
+}
+
+.image {
+  height: auto;
+  width: 30vw;
+}
+
+.card-body {
+  width: 70vw;
+}
+
+.element {
+  font-size: 9px;
+  float: right;
+}
+ 
+.btn{
+  margin-top: 3pc;
+}
